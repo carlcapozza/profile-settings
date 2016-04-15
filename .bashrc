@@ -76,7 +76,7 @@
 #
 # Whenever displaying the prompt, write the previous line to disk
 # export PROMPT_COMMAND="history -a"
-
+export PS1="\h\u\W\[$(tput sgr0)\]"
 # Aliases
 #
 # Some people use a different file for aliases
