@@ -1,0 +1,7 @@
+# Default Windows
+screen -t root sudo -s
+screen -t isescac 
+
+# Hard Status
+hardstatus alwayslastline
+hardstatus string '%{= bd} %{= bd}%-w%{= br}[%{= bW}%n %t%{= br}]%{= bd}%+w %-= %{bG} %H%{bW}|%{bY}%101`%{bW}|%D %M %d %Y%{= bC} %C%A%{-}'
